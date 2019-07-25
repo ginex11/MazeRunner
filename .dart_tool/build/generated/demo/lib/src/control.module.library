@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["demo|lib/src/model.dart","demo|lib/src/view.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["core","html","math"],"hasMain":false}

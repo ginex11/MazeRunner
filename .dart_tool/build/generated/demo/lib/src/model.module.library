@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["demo|lib/src/view.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["core","html","convert"],"hasMain":false}
