@@ -12,7 +12,7 @@ define(['dart_sdk', 'packages/demo/src/control'], function(dart_sdk, control) {
   dart.trackLibraries("web/main", {
     "org-dartlang-app:///web/main.dart": main
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["org-dartlang-app:///web/main.dart"],"names":[],"mappings":";;;;;;;;AAKiB,qBAAiB;IAChC,AAAW,UAAD;EACZ","file":"main.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["org-dartlang-app:///web/main.dart"],"names":[],"mappings":";;;;;;;;AAIiB,qBAAiB;IAChC,AAAW,UAAD;EACZ","file":"main.ddc.js"}');
   // Exports:
   return {
     main: main
