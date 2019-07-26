@@ -113,8 +113,8 @@ class Marble {
                 .round() >=
             0 &&
         collision.isNotEmpty) {
-      collision[0][0] = (x / (globalX * (window.innerWidth / globalScaleX)).round()).toInt();
-      collision[0][1] = (y / (globalY * (window.innerHeight / globalScaleY)).round()).toInt();
+      collision[0][0] = (x ~/ (globalX * (window.innerWidth / globalScaleX)).round()).toInt();
+      collision[0][1] = (y ~/ (globalY * (window.innerHeight / globalScaleY)).round()).toInt();
       if (isCollision()) {
         respawn();
       }
