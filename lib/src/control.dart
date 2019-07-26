@@ -2,8 +2,8 @@ import 'dart:core';
 import 'dart:html';
 import 'model.dart';
 import 'dart:math';
-import 'package:demo/src/model.dart';
-import 'package:demo/src/view.dart';
+import 'view.dart';
+
 
 var _over = false;
 
