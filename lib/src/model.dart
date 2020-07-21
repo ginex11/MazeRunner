@@ -4,7 +4,7 @@ import 'view.dart';
 import 'dart:convert' as JSON;
 
 /*
-Globale Variablen für die Anpassung der View an die MarbleMaze Liste
+Globale Variablen für die Anpassung der View
  */
 int globalX = 21;
 int globalY = 18;
@@ -76,7 +76,7 @@ class Marble {
   }
 
 /*
-   * Hier findet die Abfrage einer Kollision in marbleMaze
+   * Hier findet die Abfrage einer Kollision in marbleMaze statt
    */
   bool isCollision() {
     for (int i = 0; i < collision.length; i++) {
@@ -147,7 +147,7 @@ class Heart extends Item_Trap {
 }
 
 /*
-  * Das Spielfeld, wo sich alle Objekte befinden
+  * Das Spielfeld auf dem sich alle Objekte befinden
   */
 class MarbleMaze {
   Marble _marble;
@@ -158,10 +158,10 @@ class MarbleMaze {
   bool nextLvl = false;
   Heart heart;
 
-  String _level1 = "LEER"; // Hier wird das Level aus JSON gespeichert
+  String _level1 = "LEER"; // Hier wird das Level gespeichert
 
   int coinCounter = 0;
-  List<List<String>> maze; // Hier wird _level1 in eine 2D Liste gespeichert
+  List<List<String>> maze; // Hier wird _level1 in einer 2D Liste gespeichert
   var game = querySelector("#game");
 
   MarbleMaze(Marble marble) {
@@ -177,7 +177,7 @@ class MarbleMaze {
   String get level1 => _level1;
 
   /*
-   * lädt die Parameter aus JSON Datei
+   * die Parameter aus JSON Datei werden herausgelesen
    */
   void loadParameter() async {
     Map level;
